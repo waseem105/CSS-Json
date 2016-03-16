@@ -1,0 +1,68 @@
+
+
+
+
+
+.t6theme1  div.T6groupcontent {	display:inline-block;	/*border: 5px solid green;*/	margin-top:50px;}
+.t6theme1 div.clockcitylabel { color: rgb(0,0,0);	text-align:center;	margin:auto; font-size:150%; font-family:arial;}
+.t6theme1 div.t6ClockContainer { margin-right:80px; display:inline-block; }
+
+
+
+.t6theme2  div.T6groupcontent {	display:inline-block;	/*border: 5px solid green;*/	margin-top:50px;}
+.t6theme2 div.clockcitylabel {background-color: rgba(0,0,255,0.3); 	color: rgb(255,255,255); 	text-align:center;	margin:auto; font-size:200%; font-family:arial;}
+.t6theme2 div.t6ClockContainer { margin-right:80px; display:inline-block; }
+
+
+
+.t6theme3  div.T6groupcontent {	display:inline-block;	/*border: 5px solid green;*/	margin-top:50px;}
+.t6theme3 div.clockcitylabel {color: rgb(255,255,255);	text-align:center;	margin:auto;	font-size:150%;	 font-family:arial;}
+.t6theme3 div.t6ClockContainer { margin-right:80px; display:inline-block; }
+
+
+
+.t6theme4  div.T6groupcontent {	display:inline-block;	/*border: 5px solid green;*/	margin-top:20px;}
+.t6theme4 div.clockcitylabel { background-color: rgba(0,0,0,0.3);  color: rgb(255,255,255);	text-align:center;	margin:auto; font-size:150%; font-family:arial;}
+.t6theme4 div.t6ClockContainer { margin-right:80px; display:inline-block; margin-bottom:12px; }
+
+
+
+/* white text */
+.t6theme5  div.T6groupcontent {	display:inline-block;	/*border: 5px solid green;*/	margin-top:50px;}
+.t6theme5 div.clockcitylabel { color: rgb(255,255,255);	text-align:center;	margin:auto; font-size:150%; font-family:arial;}
+.t6theme5 div.t6ClockContainer { margin-right:80px; display:inline-block; }
+
+
+.digitalTime {
+
+text-align:center;
+ font-family:digital;
+ padding-top:7px;
+
+  vertical-align:middle;    
+  
+  margin-top:25%;
+}
+
+
+.digitalTime span {
+
+font-size:70%;	
+}
+
+.digitalSmall {
+    color:#0f0;;
+    font-size:80px;
+	
+}
+
+
+
+.digitalMedium {
+    color:#0f0;;
+    font-size:100px;
+	
+}
+
+
+

@@ -1,0 +1,548 @@
+body {
+
+    margin:0;
+background-color:#eee;
+overflow:hidden;
+}
+
+
+
+#big-video-wrap {
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+
+/********* fullscreen   ********/
+#fullscreen {
+
+width:1920px;
+height:1080px;
+}
+
+.mainx
+{
+	width:100%;
+	height:1080px;
+	text-align:center;
+	overflow:hidden;
+	position:relative;
+
+}
+/********* fullscreen   ********/
+
+
+
+
+
+
+
+
+
+
+
+/********* split 2 v    ********/
+
+#split2-v_wrapper {
+	
+	width:1920px;
+	height:1080px;
+}
+
+.split2-v {
+width:45%;
+height:1000px;
+display: inline-block;
+border:5px dotted #ccc;
+vertical-align: top;
+overflow:hidden;
+background-color:#f00;
+	
+}
+
+
+
+/********* split 2 v    ********/
+
+
+.split2-v_custom1 {
+width:65%;
+height:900px;
+display: inline-block;
+/*border:1px dotted #ccc;*/
+vertical-align: top;
+overflow:auto;
+	
+}
+
+
+
+.split2-v_custom2 {
+width:34%;
+height:900px;
+display: inline-block;
+border:0px dotted #ccc;
+vertical-align:top;
+overflow:hidden;
+/*position:relative;*/
+text-align:right;
+	
+}
+
+.split2-v_custom2   img {
+	height:848px;
+	vertical-align:middle;
+	dispaly-inline-block;
+	
+}
+
+
+
+
+
+
+
+
+#custom3_wrapper {
+width:1920px;
+	height:1080px;
+	text-align:center;
+}
+#custom3_wrapper div#zone1 { width:100%; height:180px;display:inline-block;overflow:hidden;}
+#custom3_wrapper div#zone2 { width:60%; height:810px;display:inline-block;vertical-align: top;overflow:hidden;}
+#custom3_wrapper div#zone3 { width:39%; height:810px;display:inline-block;vertical-align: top;}
+
+
+
+
+
+
+
+
+#custom4Portrait_wrapper {
+width:1080px;
+	height:1920px;
+	text-align:center;
+}
+#custom4Portrait_wrapper div#zone1 { width:100%; height:150px;display:inline-block;overflow:hidden;}
+#custom4Portrait_wrapper div#zone2 { width:99%; height:1600px;display:inline-block;vertical-align: top;overflow:hidden;}
+#custom4Portrait_wrapper div#zone3 { width:100%; height:65px;display:inline-block;vertical-align: top;overflow:hidden;}
+
+
+
+
+
+/* same as above but has extra container for video etc.*/
+
+#custom4Portrait_split_wrapper {
+width:1080px;
+	height:1920px;
+	text-align:center;
+}
+#custom4Portrait_split_wrapper div#zone1 { width:100%; height:150px;display:inline-block;overflow:hidden;}
+#custom4Portrait_split_wrapper div#zone2 { width:100%; height:1060px;display:inline-block;vertical-align: top;overflow:auto;}
+#custom4Portrait_split_wrapper div#zone3 { width:99%; padding:0; text-align:center; height:608px;display:inline-block;vertical-align: top;overflow:hidden; }
+
+#custom4Portrait_split_wrapper div#zone4 { width:100%; height:65px;display:inline-block;vertical-align: top;overflow:hidden;}
+
+
+
+
+
+/* full screen  portrait  1 zone*/
+#custom5Portrait_wrapper {
+width:1080px;
+	height:1920px;
+	text-align:center;
+}
+#custom5Portrait_wrapper div#zone1 { width:100%; height:100%;display:inline-block;overflow:hidden;}
+
+
+
+
+
+
+
+/********* split 2 h CUSTOM   ********/
+
+#split2-h_custom_wrapper {
+	width:1900px;
+	height:1080px;
+	text-align:center;
+	margin:auto;
+
+}
+
+.split2-h_custom1{	
+margin:auto;
+width:100%;
+height:950px;
+border:1px solid #000;
+margin: 5px;
+vertical-align: top;
+text-align:center;
+overflow:hidden;
+
+}
+
+/********* split 2 h  custom1  ********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********* split 2 h    ********/
+
+#split2-h_wrapper {
+	width:100%;
+	height:1080px;
+
+}
+
+.split2-h {	
+margin:auto;
+width:99%;
+height:500px;
+border:3px solid #000;
+margin: 5px;
+vertical-align: top;
+text-align:center;
+
+overflow:hidden;
+}
+
+/********* split 2 h    ********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********* split 3 v   ********/
+
+#split3-v_wrapper {
+	width:1920px;
+	height:1080px;
+	text-align:center;
+}
+
+.split3-v {
+width:30%;
+height:900px;
+text-align:center;
+display: inline-block;
+border:1px dotted #ccc;
+vertical-align: top;
+overflow:hidden;
+}
+
+/********* split 3 v    ********/
+
+
+
+
+
+
+
+
+
+/********* split 3 h    ********/
+
+#split3-h_wrapper {
+	
+	width:1920px;
+	height:1080px;
+}
+
+.split3-h {
+width:99%;
+height:300px;
+display: inline-block;
+border:1px dotted #f00;
+vertical-align: top;
+overflow:hidden;
+	
+}
+/********* split 3 h    ********/
+
+
+
+
+
+
+
+
+
+
+
+/********* split quad    ********/
+
+#splitQuad_wrapper {
+	width:1920px;
+	height:1080px;
+}
+
+.splitQuad {	
+width:42%;
+height:440px;
+
+display: inline-block;
+border:15px solid #333;
+margin:5px;
+vertical-align: top;
+}
+
+/********* split quad    ********/
+
+
+
+
+
+
+
+
+/********* split hex   ********/
+
+#splitHex_wrapper {
+	width:1920px;
+	height:1080px;
+	font-size: 20px;
+	text-align:center;
+}
+
+.splitHex {
+width:30%;
+height:400px;
+
+display: inline-block;
+border:15px solid #333;
+margin:0;	
+margin-bottom:3px;
+vertical-align: top;
+text-align:center;
+overflow:hidden;
+}
+/********* split hex   ********/
+
+
+
+
+
+
+
+
+
+
+
+
+/********* split oct   ********/
+
+#splitOct_wrapper {
+	width:1920px;
+	height:1080px;
+	text-align:center;
+}
+
+.splitOct {
+width:415px;
+height:390px;
+/*background-color:red;*/
+display: inline-block;
+border:25px solid #333;
+margin:0;	
+margin-bottom:3px;
+vertical-align: top;
+text-align:center;
+overflow:hidden;
+}
+
+/********* split oct   ********/
+
+
+
+
+
+
+
+
+
+
+/********* split 12- dodedegon  ********/
+
+#splitDode_wrapper {
+	width:1920px;
+	height:1080px;
+	text-align:center;
+}
+
+.splitDode{
+width:400px;
+height:290px;
+/*background-color:red;*/
+display: inline-block;
+border:25px solid #333;
+margin:0;	
+margin-bottom:3px;
+vertical-align: top;
+text-align:center;
+overflow:hidden;
+}
+
+/********* split 12 dodedegon  ********/
+
+
+
+
+
+
+
+/*********  split 12 BBBBBB - dodedegon  ********/
+
+#splitDode2_wrapper {
+	width:1920px;
+	height:1080px;
+	text-align:center;
+	background-color:#fff;
+}
+
+.splitDode2{
+width:400px;
+height:290px;
+/*background-color:red;*/
+display: inline-block;
+border:10px solid #333;
+margin:1px;;	
+margin-bottom:3px;
+vertical-align: top;
+text-align:center;
+overflow:hidden;
+}
+
+/********* split 12 dodedegon  ********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********  split 15   ********/
+
+#split15_wrapper {
+	width:1920px;
+	height:1080px;
+	text-align:center;
+	background-color:#fff;
+}
+
+.split15{
+width:350px;
+height:260px;
+/*background-color:red;*/
+display: inline-block;
+border:2px solid #f00;
+margin:1px;;	
+margin-bottom:3px;
+vertical-align: top;
+text-align:center;
+overflow:hidden;
+}
+
+/********* split 12 dodedegon  ********/
+
+
+
+
+
+
+
+/********* top 3 h    ********/
+
+#top3-h_wrapper {
+	
+	width:1920px;
+	height:1080px;
+	 text-align:center;
+}
+
+.top3-h {
+width:25%;
+height:300px;
+display: inline-block;
+border:1px solid #ccc;
+vertical-align: top;
+ box-shadow: 15px 15px 9px #aaa;	
+ margin:30px;
+ overflow:hidden;
+}
+/********* top3 h    ********/
+
+
+
+
+
+#custom1 {
+
+
+}
+
+
+
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  padding: 16px;
+  margin: 10px 0;
+  max-width: 468px;
+  border: #ddd 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  font: bold 14px/18px Helvetica, Arial, sans-serif;
+  color: #000;
+}
+ 
+blockquote.twitter-tweet p {
+  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
+  margin: 0 5px 10px 0;
+}
+ 
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+}

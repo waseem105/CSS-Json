@@ -1,0 +1,369 @@
+
+
+
+.t1Cargo table {
+margin-left:10px;
+  font-size: 50px;
+  font-family: typewriter;
+  font-weight:600;
+ border-collapse: separate; /* Or do nothing, this is default */
+ border-spacing: 10px; /* Only works if border-collapse is separate */
+  border: 0px solid #000;
+ /* box-shadow: 25px 25px 25px #ccc;
+  /*border-radius: 30px;*/
+ 
+  color:#ddd;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+.t1Cargo  table  thead tr:first-child td:first-child ,
+.t1Cargo tbody tr:first-child td:first-child{width:55%;} 
+
+
+.t1Cargo table tbody tr td {padding:4px;}
+
+
+.t1Cargo tbody tr:nth-child(odd)  { }
+.t1Cargo tbody tr:nth-child(even)    { }
+/*.t1Cargo tbody tr td {border: solid 1px #2f2;}*/
+.t1Cargo  thead tr:first-child td:first-child {color:#FF0000; font-size: 130%;}
+
+
+.t1Cargo h1 {font-family: cargo_bay; font-size:170px;
+	/*color:red;*/
+	margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.t1Cargo2 table {
+margin-left:10px;
+  font-size: 50px;
+  font-family: arial;
+  font-weight:600;
+ border-collapse: separate; /* Or do nothing, this is default */
+ border-spacing: 10px; /* Only works if border-collapse is separate */
+  border: 15px solid #aaa;
+  box-shadow: 25px 25px 25px #ccc;
+  border-radius: 30px;
+  color:#000;
+ /* background-color: rgba(0,0,0,0.5);*/
+}
+
+
+.t1Cargo2  table  thead tr:first-child td:first-child ,
+.t1Cargo2 tbody tr:first-child td:first-child { width:55%; } 
+.t1Cargo2 table tbody tr td { padding:4px;}
+.t1Cargo2 tbody tr:nth-child(odd)  {background-color:red;color:white; }
+.t1Cargo2 tbody tr:nth-child(even)    { }
+.t1Cargo2 tbody tr td {border: solid 1px #2f2;}
+/* .t1Cargo2  thead tr:first-child td:first-child {color:#FF0000; font-size: 130%;}*/
+
+
+.t1Cargo2 h1 {
+	font-family: arial;
+	font-size:100px;
+	color:red;
+	margin:0;
+	margin-bottom:10px;
+}
+
+
+
+
+
+
+.t1Table  table {
+/* margin-left:10px;*/
+border-collapse: separate; /* Or do nothing, this is default */
+/*border-spacing: 0 10px; /* Only works if border-collapse is separate */
+border-spacing: 0; /* Only works if border-collapse is separate */
+/*box-shadow: 25px 25px 25px #ccc;*/
+padding:0px;
+/*font-family: arial;*/
+border:0px solid red;
+}
+
+
+
+
+.t1TableSpacing  table {
+border-collapse: separate; /* Or do nothing, this is default */
+border-spacing: 4px; /* Only works if border-collapse is separate */
+}
+
+.t1TableSpacing2  table {
+border-collapse: separate; /* Or do nothing, this is default */
+border-spacing: 8px; /* Only works if border-collapse is separate */
+}
+
+
+
+
+.t1Shadow table {
+	box-shadow: 25px 25px 25px #ccc;
+}
+
+
+
+.t1Opacity  table {
+ background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+.roundLed    { font-family:roundLed;}
+.danielbd  table { font-family: danielbd;}
+.typewriter  table  {font-family: typewriter;}
+.angelina  table  {font-family: angelina;}
+.bebas   {font-family: bebas;}
+.arial table {font-family: arial;}
+.digital {font-family: digital;}
+
+.led {font-family: led;}
+
+
+
+
+.fontsize120 { font-size:120%; }
+.fontsize125 { font-size:125%; }
+.fontsize150 { font-size:150%; }
+.fontsize200 { font-size:200%; }
+.fontsize250 { font-size:200%; }
+.fontsize300 { font-size:300%; }
+.fontsize350 { font-size:350%; }
+.fontsize400 { font-size:400%; }
+.fontsize450 { font-size:450%; }
+.fontsize500 { font-size:500%; }
+.fontsize600 { font-size:600%; }
+.fontsize700 { font-size:700%; }
+
+
+
+.h1120  h1{ font-size:120%; margin:0; }
+.h1150  h1 { font-size:150%;  margin:0; }
+.h1200 h1 { font-size:200%;  margin:0;}
+.h1250  h1 { font-size:250%; margin:0; }
+
+
+
+/* this is to control the flag SVG dimension  -  add these classes to theme*/
+.flagx1 span.flag-icon  { font-size:100%;}
+.flagx150 span.flag-icon  { font-size:150%;}
+.flagx2 span.flag-icon  { font-size:200%;}
+.flagx250 span.flag-icon  { font-size:250%;}
+.flagx3 span.flag-icon  { font-size:300%;}
+.flagx350 span.flag-icon  { font-size:350%;}
+.flagx4 span.flag-icon  { font-size:400%;}
+.flagx5 span.flag-icon  { font-size:500%;}
+
+
+
+
+
+.t1Table  table  thead tr:first-child td:first-child ,tbody tr:first-child td:first-child { width:75%; } 
+.t1Table table tbody tr td { padding:12px;}
+
+
+/* TD padding */
+
+.t1TableTDPadding0 table tbody tr td { padding:0;}
+.t1TableTDPadding2 table tbody tr td { padding:2px;}
+.t1TableTDPadding5 table tbody tr td { padding:5px;}
+.t1TableTDPadding10 table tbody tr td { padding:10px;}
+.t1TableTDPadding15 table tbody tr td { padding:10px;}
+
+
+/* subheading */
+.t1Table  table  thead tr:first-child td {text-transform: uppercase;  text-align:center; font-size:100%; font-weight:bold; color:#000}
+.t1Table  table  thead tr:first-child td:first-child, tbody  td:first-child { text-align:left;}
+
+.TblSubHeading120 table  thead tr:first-child td {font-size:120%; }
+
+
+
+
+
+
+
+.customNth1 table  tbody tr td:nth-child(n+2) { font-family:digital; color:lime; font-size:120%; font-weight:200;}
+.customNth2 table  tbody tr td:nth-child(n+2) { font-family:roundLed; color:yellow; font-size:120%; font-weight:200;background-color:#111; border:3px solid #aaa; }
+.customNth3 table  tbody tr td:nth-child(n+2) { font-family:digital; color:yellow; font-size:200%; font-weight:400;}
+.customNth4 table  tbody tr td:nth-child(n+2) { font-family:digital; color:red; font-size:200%; font-weight:400;}
+
+.customNth5 table  tbody tr td:nth-child(n+2) { font-family:arial; color:red; font-size:200%; font-weight:400;}
+.customNth6 table  tbody tr td:nth-child(n+2) { font-family:roundLed; color:yellow; font-size:90%; font-weight:200;background-color:#333; border:2px solid #aaa; }
+
+
+/* glossy */
+.customNth7 table  tbody tr { font-family:roundLed; color:yellow;
+ font-size:90%; font-weight:200;
+background-image: url('../images/themes/svg/blackglossyrec5.svg');
+ background-size:100% 100%;   background-repeat: no-repeat;}
+
+
+
+.customNth8 table  tbody tr td:nth-child(n+2) { font-family:digital; color:red; font-size:300%; font-weight:400;  border-radius: 15px; background-color:rgba(0,0,0,0.9)}
+
+
+.customHeadTH1 thead tr {background-image: url('../images/themes/glossy/yello200c.svg'); background-size:100% 100%;   background-repeat: no-repeat; font-size:250%;}
+.customHeadTH2 thead tr {background-image: url('../images/themes/glossy/red200c.svg'); background-size:100% 100%;   background-repeat: no-repeat; font-size:250%; color: rgba(0,0,0,0.5)}
+.customHeadTH3 thead tr {background-image: url('../images/themes/glossy/bludark200c.svg'); background-size:100% 100%;   background-repeat: no-repeat; font-size:250%; color: rgba(0,0,0,0.5)}
+.customHeadTH4 thead tr {background-image: url('../images/themes/glossy/green200c.svg'); background-size:100% 100%;   background-repeat: no-repeat; font-size:250%; color: rgba(0,0,0,0.5)}
+.customHeadTH5 thead tr {background-image: url('../images/themes/glossy/purple200c.svg'); background-size:100% 100%;   background-repeat: no-repeat; font-size:250%; color: rgba(0,0,0,0.5)}
+
+.customHeadTH6 thead tr {background:red; font-size:250%; color: white;}
+
+
+
+
+.t1Table  td > * {
+    vertical-align : middle;
+}
+
+
+
+ span.tabledescriptiontag  { display:inline-block;  color:#000;margin-left:20px;  font-size:100%;  vertical-align:middle; }
+
+ 
+ 
+/* used in the description field for tables */
+/* e.g. descripton text for pizza would be vegetarian  blah blag */
+.leadWhite  span.tabledescriptiontag  {color:#ddd;}
+.leadOrange  span.tabledescriptiontag  {color:orange;}
+
+.leadSize50 span.tabledescriptiontag  { font-size:50%;}
+.leadSize75 span.tabledescriptiontag  { font-size:75%;}
+.leadSize150 span.tabledescriptiontag  { font-size:150%;}
+.leadSize200 span.tabledescriptiontag  { font-size:200%;}
+.leadSize250 span.tabledescriptiontag  { font-size:250%;}
+.leadSize300 span.tabledescriptiontag  { font-size:300%;}
+
+
+
+
+
+/* Stripes */
+.stripedrow tbody tr:nth-child(odd)  {background-image: linear-gradient(0deg, #ddd,#bbb); }
+.stripedrow tbody tr:nth-child(odd)  {background-image: linear-gradient(0deg, #ddd,#bbb); }
+
+
+.stripedrowOdd tbody tr:nth-child(odd)  {background-image: linear-gradient(0deg, #ddd,#bbb); }
+.stripedrowOdd2 tbody tr:nth-child(odd)  {background-image: linear-gradient(0deg, #444,#333); }
+.stripedrowOddBlue tbody tr:nth-child(odd)  {background-image: linear-gradient(0deg, #6787e7,#273f87); }
+
+.stripedrowOddSolidBlue tbody tr:nth-child(odd)  {background-color: #0000b2; }
+.stripedrowOddRed tbody tr:nth-child(odd)  {background-image: linear-gradient(0deg, #b20000,#ff3333); }
+.stripedrowOddSolidDark tbody tr:nth-child(odd)  {background-color: #333; }
+.stripedrowOddSolidGold tbody tr:nth-child(odd)  {background-color: yellow; }
+
+
+
+/* even */
+.stripedrowEvenBlue tbody tr:nth-child(even)  {background-image: linear-gradient(0deg,#fff, #6787e7); }
+.stripedrowEvenRed tbody tr:nth-child(even)  {background-image: linear-gradient(0deg, #ff3333,#b20000); }
+.stripedrowEvenSolidDark tbody tr:nth-child(even)  {background-color: #111; }
+
+
+
+.border25 table { border: 25px; border-style: solid;}
+.border15 table { border: 15px; border-style: solid;}
+.border5 table { border: 5px; border-style: solid;}
+ 
+.borderBottomBlack table tr td  { border-bottom: 1px solid #000;}
+.borderBottomGold table tr td  { border-bottom: 1px solid #DAA520;}
+
+
+.borderRad25 table { border-radius: 25px;}
+.borderRad50 table { border-radius: 55px;}
+.borderRad100 table { border-radius: 100px;}
+
+
+
+
+
+
+/* cornflow blue */
+.blue table {border-color: #6495ED;}
+.blue  h1 {color:#6495ED;}
+
+
+/*  peru  */
+.peru table {border-color: #CD853F; color:#CD853F;}
+.peru  h1 {color:#CD853F;}
+
+
+/*  olive  */
+.olive table {border-color: #556B2F; color:#556B2F;}
+.olive h1 {color:#556B2F;}
+
+
+/*  slate  */
+.slate table {border-color: #2F4F4F; color:#2F4F4F;}
+.slate h1 {color:#2F4F4F;}
+
+
+/*  Gold  */
+.gold table {border-color: #DAA520; color:#DAA520;}
+.gold h1 {color:#DAA520;}
+
+
+/*  Midnight  */
+.midnight table {border-color: #191970; color:#191970;}
+.midnight h1 {color:#191970;}
+
+
+/*  Gray  */
+.gray table {border-color: #666; color:#666;}
+.gray h1 {color:#666;}
+
+
+/* Crimson */
+.crimson  table {border-color: #dc143c; color:#dc143c;}
+.crimson h1 {color:#dc143c;}
+
+
+/* Orange */
+.orange table {border-color: #666; color:orange;}
+.orange h1 {color:orange;}
+.orange {color:orange;}
+
+/* lime green */
+.lime table {border-color: #666; color:#32CD32;}
+.lime h1 {color:#32CD32;}
+
+
+
+/* lime green */
+.red table {border-color: #666; color:#32CD32;}
+.red h1 {color:red;}
+.red {color:red;}
+
+/* white green */
+.white table {border-color: #666; color:#fff;}
+.white h1 {color:#32CD32;}
+.white {color:#fff;}
+
+
+
+
+
+
+
+.bgpurple table   {background: url(../images/hdGradientTiles/purple_pink1.jpg); background-size:100% 100%;}
+.bgwater table   {background: url(../images/hdGradientTiles/water_drops_on_glass-wide.jpg); background-size:100% 100%;border-collapse:collapse;}
+
+
